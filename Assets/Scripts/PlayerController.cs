@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float dashSpeed;
     [SerializeField] private float dashTime;
     [SerializeField] private float dashCooldown;
+    [SerializeField] GameObject dashEffect;
     [Space(5)]
 
     PlayerStateList pState;
@@ -36,7 +37,7 @@ public class PlayerController : MonoBehaviour
     private float xAxis;
     private float gravity;
     Animator anim;
-    private bool canDash;
+    private bool canDash = true;
     private bool dashed;
 
     public static PlayerController Instance;
@@ -101,7 +102,7 @@ public class PlayerController : MonoBehaviour
 
     void StartDash()
     {
-        if(Input.GetButtonDown("Dash") && canDash && !dashed)
+        if (Input.GetButtonDown("Dash") && canDash && !dashed)
         {
             StartCoroutine(Dash());
             dashed = true;
@@ -120,6 +121,7 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Dashing");
         rb.gravityScale = 0;
         rb.velocity = new Vector2(transform.localScale.x * dashSpeed, 0);
+        if (Grounded()) Instantiate(dashEffect, transform);
         yield return new WaitForSeconds(dashTime);
         rb.gravityScale = gravity;
         pState.dashing = false;
