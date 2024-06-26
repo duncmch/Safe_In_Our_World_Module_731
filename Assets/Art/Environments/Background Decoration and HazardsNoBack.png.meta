@@ -147,7 +147,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -168,10 +168,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -908,7 +908,40 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Background Decoration and HazardsNoBack_0: -5200645080388262353
+      Background Decoration and HazardsNoBack_1: -854574998555353793
+      Background Decoration and HazardsNoBack_10: 3345014488123016070
+      Background Decoration and HazardsNoBack_11: -7206336929683889564
+      Background Decoration and HazardsNoBack_12: 3148786342091028043
+      Background Decoration and HazardsNoBack_13: 360526390440753961
+      Background Decoration and HazardsNoBack_14: 1274379127530848703
+      Background Decoration and HazardsNoBack_15: 2959217054911327939
+      Background Decoration and HazardsNoBack_16: -1690044618786705970
+      Background Decoration and HazardsNoBack_17: -8600586966197185097
+      Background Decoration and HazardsNoBack_18: -4440899716580025482
+      Background Decoration and HazardsNoBack_19: 181600739573281261
+      Background Decoration and HazardsNoBack_2: -5135387302377819500
+      Background Decoration and HazardsNoBack_20: 1003206107171195031
+      Background Decoration and HazardsNoBack_21: 6329967195267340359
+      Background Decoration and HazardsNoBack_22: -6685924244367962209
+      Background Decoration and HazardsNoBack_23: -1687237269197790086
+      Background Decoration and HazardsNoBack_24: -4436953042764107079
+      Background Decoration and HazardsNoBack_25: 6260145511180757605
+      Background Decoration and HazardsNoBack_26: -1252357339515866890
+      Background Decoration and HazardsNoBack_27: -5346940302470712003
+      Background Decoration and HazardsNoBack_28: -3521581332843975979
+      Background Decoration and HazardsNoBack_29: 2396604842395940091
+      Background Decoration and HazardsNoBack_3: -8038119459614448207
+      Background Decoration and HazardsNoBack_30: 854948037321154904
+      Background Decoration and HazardsNoBack_31: 3147287604734166686
+      Background Decoration and HazardsNoBack_32: 1259499449316320172
+      Background Decoration and HazardsNoBack_4: 3947859949967277816
+      Background Decoration and HazardsNoBack_5: -7005487862254939215
+      Background Decoration and HazardsNoBack_6: -3011124592023294378
+      Background Decoration and HazardsNoBack_7: -331263269003128700
+      Background Decoration and HazardsNoBack_8: -3935084537062161542
+      Background Decoration and HazardsNoBack_9: 3507856570991395374
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -154,6 +154,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (pState.cutscene) return;
+
         GetInputs();
         UpdateJumpVariables();
         RestoreTimeScale();
@@ -179,6 +181,8 @@ public class PlayerController : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        if (pState.cutscene) return;
+
         if (pState.dashing) return;
         Recoil();
     }
@@ -188,7 +192,7 @@ public class PlayerController : MonoBehaviour
         yAxis = Input.GetAxisRaw("Vertical");
         attack = Input.GetButtonDown("Attack");
 
-        if(Input.GetButton("Cast/Heal"))
+        if(Input.GetButton("Heal"))
         {
             castOrHealtimer += Time.deltaTime;
         }
@@ -238,7 +242,7 @@ public class PlayerController : MonoBehaviour
         pState.dashing = true;
         anim.SetTrigger("Dashing");
         rb.gravityScale = 0;
-        int _dir = pState.lookingRight ? -1 : 1;
+        int _dir = pState.lookingRight ? 1 : -1;
         rb.velocity = new Vector2(_dir * dashSpeed, 0);
         if (Grounded()) Instantiate(dashEffect, transform);
         yield return new WaitForSeconds(dashTime);
@@ -246,6 +250,27 @@ public class PlayerController : MonoBehaviour
         pState.dashing = false;
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
+    }
+
+    public IEnumerator WalkIntoNewScene(Vector2 _exitDir, float _delay)
+    {
+        //If exit direction is upwards
+        if(_exitDir.y >0)
+        {
+            rb.velocity = jumpForce * _exitDir;
+        }
+
+        //if exit direction requires horizontal movement
+        if(_exitDir.x != 0)
+        {
+            xAxis = _exitDir.x > 0 ? 1 : -1;
+
+            Move();
+        }
+        Flip();
+
+        yield return new WaitForSeconds(_delay);
+        pState.cutscene = false;
     }
 
     void Attack()
@@ -449,7 +474,7 @@ public class PlayerController : MonoBehaviour
 
     void Heal()
     {
-        if(Input.GetButtonDown("Cast/Heal") && castOrHealtimer > 0.05f && Health < maxHealth && Mana > 0 && Grounded() && !pState.dashing)
+        if(Input.GetButtonDown("Heal") && castOrHealtimer > 0.05f && Health < maxHealth && Mana > 0 && Grounded() && !pState.dashing)
         {
             pState.healing = true;
             anim.SetBool("Healing", true);
@@ -488,7 +513,7 @@ public class PlayerController : MonoBehaviour
 
     void CastSpell()
     {
-        if(Input.GetButtonUp("Cast/Heal") && castOrHealtimer <= 0.05f && timeSinceCast >= timeBetweenCast && Mana >= manaSpellCost)
+        if(Input.GetButtonUp("Cast") && castOrHealtimer <= 0.05f && timeSinceCast >= timeBetweenCast && Mana >= manaSpellCost)
         {
             pState.casting = true;
             timeSinceCast = 0;
