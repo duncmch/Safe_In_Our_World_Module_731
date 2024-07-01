@@ -7,6 +7,8 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
 
+    [SerializeField] GameObject deathScreen;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -25,5 +27,21 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         sceneFader = GetComponentInChildren<SceneFader>();
+    }
+
+    public IEnumerator ActivateDeathScreen()
+    {
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine(sceneFader.Fade(SceneFader.FadeDirection.In));
+
+        yield return new WaitForSeconds(0.8f);
+        deathScreen.SetActive(true);
+    }
+
+    public IEnumerator DeactivateDeathScreen()
+    {
+        yield return new WaitForSeconds(0.5f);
+        deathScreen.SetActive(false);
+        StartCoroutine(sceneFader.Fade(SceneFader.FadeDirection.Out));
     }
 }

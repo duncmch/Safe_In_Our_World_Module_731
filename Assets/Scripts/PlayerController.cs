@@ -102,7 +102,7 @@ public class PlayerController : MonoBehaviour
 
     [HideInInspector] public PlayerStateList pState;
     private Animator anim;
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     private SpriteRenderer sr;
 
     private float xAxis, yAxis;
@@ -158,18 +158,20 @@ public class PlayerController : MonoBehaviour
 
         GetInputs();
         UpdateJumpVariables();
+
+        if (pState.dashing) return;
         RestoreTimeScale();
-
-
-        if (pState.dashing || pState.healing) return;
         FlashWhileInvincible();
-        Flip();
         Move();
+        Heal();
+        CastSpell();
+
+
+        if (pState.healing) return;
+        Flip();
         Jump();
         StartDash();
         Attack();
-        Heal();
-        CastSpell();
     }
 
     private void OnTriggerEnter2D(Collider2D _other) // for up and down cast spell
@@ -192,7 +194,7 @@ public class PlayerController : MonoBehaviour
         yAxis = Input.GetAxisRaw("Vertical");
         attack = Input.GetButtonDown("Attack");
 
-        if(Input.GetButton("Heal"))
+        if(Input.GetButton("Cast/Heal"))
         {
             castOrHealtimer += Time.deltaTime;
         }
@@ -399,7 +401,15 @@ public class PlayerController : MonoBehaviour
     public void TakeDamage(float _damage)
     {
         Health -= Mathf.RoundToInt(_damage);
-        StartCoroutine(StopTakingDamage());
+        if(Health <= 0)
+        {
+            Health = 0;
+            StartCoroutine(Death());
+        }
+        else
+        {
+            StartCoroutine(StopTakingDamage());
+        }
     }
 
     IEnumerator StopTakingDamage()
@@ -449,11 +459,34 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    IEnumerator Death()
+    {
+        pState.alive = false;
+        Time.timeScale = 1;
+        GameObject _bloodSpurtParticles = Instantiate(bloodSpurt, transform.position, Quaternion.identity);
+        Destroy(_bloodSpurtParticles, 1.5f);
+        anim.SetTrigger("Death");
+
+        yield return new WaitForSeconds(0.9f);
+        StartCoroutine(UIManager.Instance.ActivateDeathScreen());
+    }
+
+    public void Respawned()
+    {
+        if(!pState.alive)
+        {
+            pState.alive = true;
+            Health = maxHealth;
+            anim.Play("player_idle");
+        }
+    }
+
     IEnumerator StartTimeAgain(float _delay)
     {
         yield return new WaitForSecondsRealtime(_delay);
         restoreTime = true;
     }
+
     public int Health
     {
         get { return health; }
@@ -474,7 +507,7 @@ public class PlayerController : MonoBehaviour
 
     void Heal()
     {
-        if(Input.GetButtonDown("Heal") && castOrHealtimer > 0.05f && Health < maxHealth && Mana > 0 && Grounded() && !pState.dashing)
+        if(Input.GetButton("Cast/Heal") && castOrHealtimer > 0.05f && Health < maxHealth && Mana > 0 && Grounded() && !pState.dashing)
         {
             pState.healing = true;
             anim.SetBool("Healing", true);
@@ -513,7 +546,7 @@ public class PlayerController : MonoBehaviour
 
     void CastSpell()
     {
-        if(Input.GetButtonDown("Cast") && castOrHealtimer <= 0.05f && timeSinceCast >= timeBetweenCast && Mana >= manaSpellCost)
+        if(Input.GetButtonUp("Cast/Heal") && castOrHealtimer <= 0.05f && timeSinceCast >= timeBetweenCast && Mana >= manaSpellCost)
         {
             pState.casting = true;
             timeSinceCast = 0;
@@ -561,7 +594,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // up cast
-        else if(yAxis >0)
+        else if(yAxis > 0)
         {
             Instantiate(upSpellExplosion, transform);
             rb.velocity = Vector2.zero;
