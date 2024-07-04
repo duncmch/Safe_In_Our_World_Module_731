@@ -20,6 +20,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private int maxAirJumps;
     [Space(5)]
 
+    [Header("Wall Jump Settings")]
+    [SerializeField] private float wallSlidingSpeed = 2f;
+    [SerializeField] private Transform wallCheck;
+    [SerializeField] private LayerMask wallLayer;
+    [SerializeField] private float wallJumpingDuration;
+    [SerializeField] private Vector2 wallJumpingPower;
+    float wallJumpingDirection;
+    bool isWallSliding;
+    bool isWallJumping;
+    [Space(5)]
+
     [Header("Ground Check Settings")]
     [SerializeField] private Transform groundCheckPoint;
     [SerializeField] private float groundCheckY = 0.2f;
@@ -112,6 +123,15 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController Instance;
 
+    //unlocking
+    public bool unlockWallJump;
+    public bool unlockDash;
+    public bool unlockVarJump;
+
+    public bool unlockSideCast;
+    public bool unlockUpCast;
+    public bool unlockDownCast;
+
     private void Awake()
     {
         if(Instance != null && Instance != this)
@@ -170,8 +190,18 @@ public class PlayerController : MonoBehaviour
         if (pState.healing) return;
         Flip();
         Jump();
-        StartDash();
         Attack();
+
+        if(unlockDash)
+        {
+            StartDash();
+        }
+
+        if (unlockWallJump)
+        {
+            WallSlide();
+            WallJump();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D _other) // for up and down cast spell
@@ -531,7 +561,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    float Mana
+    public float Mana
     {
         get { return mana; }
         set
@@ -572,12 +602,11 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator CastCoroutine()
     {
-        anim.SetBool("Casting", true);
-        yield return new WaitForSeconds(0.15f);
-
         //side cast
-        if(yAxis == 0 || (yAxis <0 && Grounded()))
+        if ((yAxis == 0 || (yAxis <0 && Grounded())) && unlockSideCast)
         {
+            anim.SetBool("Casting", true);
+            yield return new WaitForSeconds(0.15f);
             GameObject _fireBall = Instantiate(sideSpellFireball, SideAttackTransform.position, Quaternion.identity);
 
             // flip fireball
@@ -591,23 +620,36 @@ public class PlayerController : MonoBehaviour
                 //if not facing right, rotate the fireball 180 deg
             }
             pState.recoilingX = true;
+
+            Mana -= manaSpellCost;
+            yield return new WaitForSeconds(0.35f);
         }
 
         // up cast
-        else if(yAxis > 0)
+        else if(yAxis > 0 && unlockUpCast)
         {
+            anim.SetBool("Casting" , true);
+            yield return new WaitForSeconds(0.15f);
+            
             Instantiate(upSpellExplosion, transform);
             rb.velocity = Vector2.zero;
+
+            Mana -= manaSpellCost;
+            yield return new WaitForSeconds(0.35f);
         }
 
         //down cast
-        else if(yAxis < 0 && !Grounded())
+        else if((yAxis < 0 && !Grounded()) && unlockDownCast)
         {
+            anim.SetBool("Casting", true);
+            yield return new WaitForSeconds(0.15f);
+            
             downSpellFireball.SetActive(true);
+
+            Mana -= manaSpellCost;
+            yield return new WaitForSeconds(0.35f);
         }
 
-        Mana -= manaSpellCost;
-        yield return new WaitForSeconds(0.35f);
         anim.SetBool("Casting", false);
         pState.casting = false;
     }
@@ -635,7 +677,7 @@ public class PlayerController : MonoBehaviour
             pState.jumping = true;
         }
         
-        if (!Grounded() && airJumpCounter < maxAirJumps && Input.GetButtonDown("Jump"))
+        if (!Grounded() && airJumpCounter < maxAirJumps && Input.GetButtonDown("Jump") && unlockVarJump)
         {
             pState.jumping = true;
 
@@ -675,5 +717,59 @@ public class PlayerController : MonoBehaviour
         {
             jumpBufferCounter--;
         }
+    }
+
+    private bool Walled()
+    {
+        return Physics2D.OverlapCircle(wallCheck.position, 0.2f, wallLayer);
+    }
+
+    void WallSlide()
+    {
+        if(Walled() && !Grounded() && xAxis != 0)
+        {
+            isWallSliding = true;
+
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+        }
+        else
+        {
+            isWallSliding = false;
+        }
+    }
+
+    void WallJump()
+    {
+        if (isWallSliding)
+        {
+            isWallJumping = false;
+            wallJumpingDirection = !pState.lookingRight ? 1 : -1;
+
+            CancelInvoke(nameof(StopWallJumping));
+        }
+
+        if(Input.GetButtonDown("Jump") && isWallSliding)
+        {
+            isWallJumping = true;
+            rb.velocity = new Vector2(wallJumpingDirection * wallJumpingPower.x, wallJumpingPower.y);
+
+            dashed = false;
+            airJumpCounter = 0;
+
+            if((pState.lookingRight && transform.eulerAngles.y == 0) || (!pState.lookingRight && transform.eulerAngles.y != 0))
+            {
+                pState.lookingRight = !pState.lookingRight;
+                int _yRotation = pState.lookingRight ? 0 : 180;
+
+                transform.eulerAngles = new Vector2(transform.eulerAngles.x, _yRotation);
+            }
+
+            Invoke(nameof(StopWallJumping), wallJumpingDuration);
+        }
+    }
+
+    void StopWallJumping()
+    {
+        isWallJumping = false;
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class GameManager : MonoBehaviour
     [System.Obsolete]
     private void Awake()
     {
+        SaveData.Instance.Initialize();
+
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -22,22 +25,38 @@ public class GameManager : MonoBehaviour
         {
             Instance = this; 
         }
+        
+        SaveScene();
+
         DontDestroyOnLoad(gameObject);
         bench = FindObjectOfType<Bench>();
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            SaveData.Instance.SavePlayerData();
+        }
+    }
+    public void SaveScene()
+    {
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        SaveData.Instance.sceneNames.Add(currentSceneName);
+    }
+
     public void RespawnPlayer()
     {
-        if (bench != null)
+        SaveData.Instance.LoadBench();
+
+        if(SaveData.Instance.benchSceneName != null) // load the bench's scene if it exists
         {
-            if (bench.interacted)
-            {
-                respawnPoint = bench.transform.position;
-            }
-            else
-            {
-                respawnPoint = platformingRespawnPoint;
-            }
+            SceneManager.LoadScene(SaveData.Instance.benchSceneName);
+        }
+
+        if(SaveData.Instance.benchPos != null) // set the respawn point to the bench's position
+        {
+            respawnPoint = SaveData.Instance.benchPos;
         }
         else
         {

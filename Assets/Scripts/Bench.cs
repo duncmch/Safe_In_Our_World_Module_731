@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bench : MonoBehaviour
 {
@@ -19,10 +20,17 @@ public class Bench : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D _collision)
     {
-        if(_collision.CompareTag("Player"))
+        if(_collision.CompareTag("Player") && Input.GetButtonDown("Interact"))
         {
             interacted = true;
         }
-        
+    }
+
+    private void OnTriggerExit2D(Collider2D _collision)
+    {
+        if(_collision.CompareTag("Player"))
+        {
+            interacted = false;
+        }
     }
 }
