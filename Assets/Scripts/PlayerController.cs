@@ -123,6 +123,7 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController Instance;
 
+    [Header("Unlockable Abilities")]
     //unlocking
     public bool unlockWallJump;
     public bool unlockDash;

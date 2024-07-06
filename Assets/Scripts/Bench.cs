@@ -20,7 +20,7 @@ public class Bench : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D _collision)
     {
-        if(_collision.CompareTag("Player") && Input.GetButtonDown("Interact"))
+        if(_collision.CompareTag("Player"))
         {
             interacted = true;
         }

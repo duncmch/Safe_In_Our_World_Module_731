@@ -47,7 +47,30 @@ public class GameManager : MonoBehaviour
 
     public void RespawnPlayer()
     {
-        SaveData.Instance.LoadBench();
+        if(bench != null)
+        {
+            if (bench.interacted)
+            {
+                respawnPoint = bench.transform.position;
+            }
+            else
+            {
+                respawnPoint = platformingRespawnPoint;
+            }
+        }
+        else
+        {
+            respawnPoint = platformingRespawnPoint;
+        }
+
+        PlayerController.Instance.transform.position = respawnPoint;
+
+        PlayerController.Instance.transform.position = respawnPoint;
+
+        StartCoroutine(UIManager.Instance.DeactivateDeathScreen());
+        PlayerController.Instance.Respawned();
+
+        /*SaveData.Instance.LoadBench();
 
         if(SaveData.Instance.benchSceneName != null) // load the bench's scene if it exists
         {
@@ -61,11 +84,6 @@ public class GameManager : MonoBehaviour
         else
         {
             respawnPoint = platformingRespawnPoint;
-        }
-
-        PlayerController.Instance.transform.position = respawnPoint;
-
-        StartCoroutine(UIManager.Instance.DeactivateDeathScreen());
-        PlayerController.Instance.Respawned();
+        }*/
     }
 }
