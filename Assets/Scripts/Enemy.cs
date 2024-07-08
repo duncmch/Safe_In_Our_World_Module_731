@@ -10,9 +10,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected bool isRecoiling = false;
 
     [SerializeField] protected PlayerController player;
-    [SerializeField] protected float speed;
+    [SerializeField] public float speed;
 
-    [SerializeField] protected float damage;
+    [SerializeField] public float damage;
     [SerializeField] protected GameObject orangeBlood;
 
     protected float recoilTimer;
@@ -36,7 +36,10 @@ public class Enemy : MonoBehaviour
         //charger
         Charger_Idle,
         Charger_Surprised,
-        Charger_Charge
+        Charger_Charge,
+
+        //Golem
+        Golem_Stage1,
     }
 
     protected EnemyStates currentEnemyState;
@@ -99,7 +102,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    protected void OnCollisionStay2D(Collision2D _other)
+    protected virtual void OnCollisionStay2D(Collision2D _other)
     {
         if(_other.gameObject.CompareTag("Player") && !PlayerController.Instance.pState.invincible && health > 0)
         {

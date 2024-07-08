@@ -65,8 +65,6 @@ public class GameManager : MonoBehaviour
 
         PlayerController.Instance.transform.position = respawnPoint;
 
-        PlayerController.Instance.transform.position = respawnPoint;
-
         StartCoroutine(UIManager.Instance.DeactivateDeathScreen());
         PlayerController.Instance.Respawned();
 
