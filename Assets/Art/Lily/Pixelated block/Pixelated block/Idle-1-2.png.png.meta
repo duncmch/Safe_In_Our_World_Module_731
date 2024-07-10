@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4ee5cbcb9f21ac0438d6fcbd530be6fd
+guid: 9dfd115e12f20114fa4d72c5c388faf3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2633819227039871696
-    second: Idle-2_0
+      213: 8378324345798726747
+    second: Idle-1-2.png_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle-2_0
+      name: Idle-1-2.png_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 31
-        width: 141
-        height: 136
+        x: 9
+        y: 3
+        width: 19
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 03dc1b91e5bc27bd0800000000000000
-      internalID: -2633819227039871696
+      spriteID: b54175c2a99c54470800000000000000
+      internalID: 8378324345798726747
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle-2_0: -2633819227039871696
+      Idle-1-2.png_0: 8378324345798726747
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

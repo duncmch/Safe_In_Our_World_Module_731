@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 2040368468198323377}
   - component: {fileID: 6303979047336583211}
   - component: {fileID: 3929556995219986136}
-  - component: {fileID: 5668864420898617889}
+  - component: {fileID: 727245443621184253}
   m_Layer: 0
   m_Name: Unlock Dash
   m_TagString: Untagged
@@ -351,7 +351,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &5668864420898617889
+--- !u!114 &727245443621184253
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -360,7 +360,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3489081331829977188}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 757c965aa2201d5439e78bd6967d0583, type: 3}
+  m_Script: {fileID: 11500000, guid: ab711fbc571689a4eb0fd61613e4894b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 3229821368287751496, guid: 95b88e2454a9a63428581641aa94b4f8, type: 3}
