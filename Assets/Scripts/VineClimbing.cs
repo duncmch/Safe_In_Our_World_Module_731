@@ -12,11 +12,14 @@ public class VineClimbing : MonoBehaviour
 
     [SerializeField] private Rigidbody2D rb;
 
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
     // Update is called once per frame
     void Update()
     {
-        anim = GetComponent<Animator>();
-
         vertical = Input.GetAxis("Vertical");
 
         if (isVine && Mathf.Abs(vertical) > 0f)

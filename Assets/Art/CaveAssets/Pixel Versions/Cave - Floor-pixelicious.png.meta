@@ -1,0 +1,774 @@
+fileFormatVersion: 2
+guid: 0e7b081d076345e40befe6f669ee5988
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1330077393535649797
+    second: Cave - Floor-pixelicious_0
+  - first:
+      213: -4957065002689823832
+    second: Cave - Floor-pixelicious_1
+  - first:
+      213: -6376232982170319426
+    second: Cave - Floor-pixelicious_2
+  - first:
+      213: 3588489446740025937
+    second: Cave - Floor-pixelicious_3
+  - first:
+      213: -72378250567863752
+    second: Cave - Floor-pixelicious_4
+  - first:
+      213: 1111453084201397695
+    second: Cave - Floor-pixelicious_5
+  - first:
+      213: 296318823667892913
+    second: Cave - Floor-pixelicious_6
+  - first:
+      213: -8495892661190363557
+    second: Cave - Floor-pixelicious_7
+  - first:
+      213: 4775398952718975108
+    second: Cave - Floor-pixelicious_8
+  - first:
+      213: -5063274509474307698
+    second: Cave - Floor-pixelicious_9
+  - first:
+      213: 8347296891069732856
+    second: Cave - Floor-pixelicious_10
+  - first:
+      213: 1452014377373095811
+    second: Cave - Floor-pixelicious_11
+  - first:
+      213: 8247826866886567190
+    second: Cave - Floor-pixelicious_12
+  - first:
+      213: -1364616647591173704
+    second: Cave - Floor-pixelicious_13
+  - first:
+      213: -2670800779701122742
+    second: Cave - Floor-pixelicious_14
+  - first:
+      213: 4389268355176184872
+    second: Cave - Floor-pixelicious_15
+  - first:
+      213: -4968412626983276295
+    second: Cave - Floor-pixelicious_16
+  - first:
+      213: -2180280321526662378
+    second: Cave - Floor-pixelicious_17
+  - first:
+      213: 1427066987904968122
+    second: Cave - Floor-pixelicious_18
+  - first:
+      213: 8485351771677163122
+    second: Cave - Floor-pixelicious_19
+  - first:
+      213: 6387600481037263856
+    second: Cave - Floor-pixelicious_20
+  - first:
+      213: -7653232464142195723
+    second: Cave - Floor-pixelicious_21
+  - first:
+      213: 2429569522476561442
+    second: Cave - Floor-pixelicious_22
+  - first:
+      213: 4891011702423730322
+    second: Cave - Floor-pixelicious_23
+  - first:
+      213: -2127689112523407514
+    second: Cave - Floor-pixelicious_24
+  - first:
+      213: 8707094144342721946
+    second: Cave - Floor-pixelicious_25
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 475
+        width: 90
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7b78a58ad9a8de0800000000000000
+      internalID: -1330077393535649797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 475
+        width: 94
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abf62ac4a7f43bb0800000000000000
+      internalID: -4957065002689823832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 479
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5cb9ca2e11387a0800000000000000
+      internalID: -6376232982170319426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_3
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 403
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1526d21a320ecc130800000000000000
+      internalID: 3588489446740025937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_4
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 411
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83230755d5cdefef0800000000000000
+      internalID: -72378250567863752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 439
+        width: 94
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd265cf0bcac6f00800000000000000
+      internalID: 1111453084201397695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_6
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 438
+        width: 98
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b28cf0766cbc1400800000000000000
+      internalID: 296318823667892913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 435
+        width: 106
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5676e743a6881a80800000000000000
+      internalID: -8495892661190363557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 403
+        width: 250
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480469ddb00a54240800000000000000
+      internalID: 4775398952718975108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 363
+        width: 198
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e816e76f8a2abb9b0800000000000000
+      internalID: -5063274509474307698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 327
+        width: 90
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f71feaeb4e87d370800000000000000
+      internalID: 8347296891069732856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 323
+        width: 90
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38755141267962410800000000000000
+      internalID: 1452014377373095811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 322
+        width: 74
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61562b926da267270800000000000000
+      internalID: 8247826866886567190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_13
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 323
+        width: 74
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b16eb99368ef0de0800000000000000
+      internalID: -1364616647591173704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_14
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 323
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49041467d86fead0800000000000000
+      internalID: -2670800779701122742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_15
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 323
+        width: 58
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cb32e4050d9ec30800000000000000
+      internalID: 4389268355176184872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 271
+        width: 370
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0b81f1a07ac0bb0800000000000000
+      internalID: -4968412626983276295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_17
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 203
+        width: 38
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bf0a469961eb1e0800000000000000
+      internalID: -2180280321526662378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_18
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 203
+        width: 33
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab523c45dd5fdc310800000000000000
+      internalID: 1427066987904968122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_19
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 179
+        width: 358
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e7c01aa7602c570800000000000000
+      internalID: 8485351771677163122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_20
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 155
+        width: 94
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f327576bc055a850800000000000000
+      internalID: 6387600481037263856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 103
+        width: 178
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f321575f914ac590800000000000000
+      internalID: -7653232464142195723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 119
+        width: 170
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224b458bb9097b120800000000000000
+      internalID: 2429569522476561442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_23
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 111
+        width: 94
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298be3bca3d50e340800000000000000
+      internalID: 4891011702423730322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 15
+        width: 198
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f739f660ee872e0800000000000000
+      internalID: -2127689112523407514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor-pixelicious_25
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 23
+        width: 198
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a958e6bfdffc5d870800000000000000
+      internalID: 8707094144342721946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cave - Floor-pixelicious_0: -1330077393535649797
+      Cave - Floor-pixelicious_1: -4957065002689823832
+      Cave - Floor-pixelicious_10: 8347296891069732856
+      Cave - Floor-pixelicious_11: 1452014377373095811
+      Cave - Floor-pixelicious_12: 8247826866886567190
+      Cave - Floor-pixelicious_13: -1364616647591173704
+      Cave - Floor-pixelicious_14: -2670800779701122742
+      Cave - Floor-pixelicious_15: 4389268355176184872
+      Cave - Floor-pixelicious_16: -4968412626983276295
+      Cave - Floor-pixelicious_17: -2180280321526662378
+      Cave - Floor-pixelicious_18: 1427066987904968122
+      Cave - Floor-pixelicious_19: 8485351771677163122
+      Cave - Floor-pixelicious_2: -6376232982170319426
+      Cave - Floor-pixelicious_20: 6387600481037263856
+      Cave - Floor-pixelicious_21: -7653232464142195723
+      Cave - Floor-pixelicious_22: 2429569522476561442
+      Cave - Floor-pixelicious_23: 4891011702423730322
+      Cave - Floor-pixelicious_24: -2127689112523407514
+      Cave - Floor-pixelicious_25: 8707094144342721946
+      Cave - Floor-pixelicious_3: 3588489446740025937
+      Cave - Floor-pixelicious_4: -72378250567863752
+      Cave - Floor-pixelicious_5: 1111453084201397695
+      Cave - Floor-pixelicious_6: 296318823667892913
+      Cave - Floor-pixelicious_7: -8495892661190363557
+      Cave - Floor-pixelicious_8: 4775398952718975108
+      Cave - Floor-pixelicious_9: -5063274509474307698
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

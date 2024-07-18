@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b82e9294775a7424c862deb2e105cea9
+guid: 9eee7fa8b6130094eb46fbaee4efd4ea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4482905079506465049
-    second: Die-1-2.png_0
+      213: -1905185383991159554
+    second: Biome2Bg3_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Die-1-2.png_0
+      name: Biome2Bg3_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 4
-        width: 19
-        height: 25
+        x: 0
+        y: 0
+        width: 1280
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ee0936e49589c1c0800000000000000
-      internalID: -4482905079506465049
+      spriteID: ef4d0f3ccfb6f85e0800000000000000
+      internalID: -1905185383991159554
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Die-1-2.png_0: -4482905079506465049
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

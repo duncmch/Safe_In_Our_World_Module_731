@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: c61e454dd3f0fbf4eb3d921c3b01633f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -739066705577644172
+    second: Cave - RockCombinations1-pixelicious_0
+  - first:
+      213: -9071987387645298612
+    second: Cave - RockCombinations1-pixelicious_1
+  - first:
+      213: 3329389799887886007
+    second: Cave - RockCombinations1-pixelicious_2
+  - first:
+      213: 4951911361926620366
+    second: Cave - RockCombinations1-pixelicious_3
+  - first:
+      213: -3706484291601626366
+    second: Cave - RockCombinations1-pixelicious_4
+  - first:
+      213: -1139814162973964153
+    second: Cave - RockCombinations1-pixelicious_5
+  - first:
+      213: -8228690397845805406
+    second: Cave - RockCombinations1-pixelicious_6
+  - first:
+      213: -7805254758501221225
+    second: Cave - RockCombinations1-pixelicious_7
+  - first:
+      213: -3636241705959446946
+    second: Cave - RockCombinations1-pixelicious_8
+  - first:
+      213: 4307478761346243398
+    second: Cave - RockCombinations1-pixelicious_9
+  - first:
+      213: 2193093368109803469
+    second: Cave - RockCombinations1-pixelicious_10
+  - first:
+      213: 4992431960432362951
+    second: Cave - RockCombinations1-pixelicious_11
+  - first:
+      213: 3290476770824321067
+    second: Cave - RockCombinations1-pixelicious_12
+  - first:
+      213: 27355308092032486
+    second: Cave - RockCombinations1-pixelicious_13
+  - first:
+      213: 227046203504243548
+    second: Cave - RockCombinations1-pixelicious_14
+  - first:
+      213: 7189268143783209882
+    second: Cave - RockCombinations1-pixelicious_15
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 410
+        width: 144
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fe9bc3fbe4eb5f0800000000000000
+      internalID: -739066705577644172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 422
+        width: 80
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48f3905983d91280800000000000000
+      internalID: -9071987387645298612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_2
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 402
+        width: 120
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b65025126e543e20800000000000000
+      internalID: 3329389799887886007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_3
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 427
+        width: 99
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec46bd6b529b8b440800000000000000
+      internalID: 4951911361926620366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 299
+        width: 110
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b0581bc2cef8cc0800000000000000
+      internalID: -3706484291601626366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 334
+        width: 108
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7884af9ce019e20f0800000000000000
+      internalID: -1139814162973964153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 330
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6abbd3ea1ddcd80800000000000000
+      internalID: -8228690397845805406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_7
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 346
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c7b12b62a2ea390800000000000000
+      internalID: -7805254758501221225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_8
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 350
+        width: 76
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56a3de1f69798dc0800000000000000
+      internalID: -3636241705959446946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 219
+        width: 146
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b15978c1d37cb30800000000000000
+      internalID: 4307478761346243398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_10
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 215
+        width: 144
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7237d7cce6f6e10800000000000000
+      internalID: 2193093368109803469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_11
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 230
+        width: 175
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5c0eeba6ea84540800000000000000
+      internalID: 4992431960432362951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 54
+        width: 144
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2878aa703f1aad20800000000000000
+      internalID: 3290476770824321067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 22
+        width: 108
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e50c8df18f216000800000000000000
+      internalID: 27355308092032486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_14
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 38
+        width: 92
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53b873b151a62300800000000000000
+      internalID: 227046203504243548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - RockCombinations1-pixelicious_15
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 31
+        width: 102
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9bea31594965c360800000000000000
+      internalID: 7189268143783209882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cave - RockCombinations1-pixelicious_0: -739066705577644172
+      Cave - RockCombinations1-pixelicious_1: -9071987387645298612
+      Cave - RockCombinations1-pixelicious_10: 2193093368109803469
+      Cave - RockCombinations1-pixelicious_11: 4992431960432362951
+      Cave - RockCombinations1-pixelicious_12: 3290476770824321067
+      Cave - RockCombinations1-pixelicious_13: 27355308092032486
+      Cave - RockCombinations1-pixelicious_14: 227046203504243548
+      Cave - RockCombinations1-pixelicious_15: 7189268143783209882
+      Cave - RockCombinations1-pixelicious_2: 3329389799887886007
+      Cave - RockCombinations1-pixelicious_3: 4951911361926620366
+      Cave - RockCombinations1-pixelicious_4: -3706484291601626366
+      Cave - RockCombinations1-pixelicious_5: -1139814162973964153
+      Cave - RockCombinations1-pixelicious_6: -8228690397845805406
+      Cave - RockCombinations1-pixelicious_7: -7805254758501221225
+      Cave - RockCombinations1-pixelicious_8: -3636241705959446946
+      Cave - RockCombinations1-pixelicious_9: 4307478761346243398
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
