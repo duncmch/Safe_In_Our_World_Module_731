@@ -29,5 +29,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tomb7_Cave.unity
     guid: 123f273b417013244b387850101f2084
+  - enabled: 1
+    path: Assets/Scenes/TombAsh_Cave.unity
+    guid: 7a3c9448e163179428df0db4aef69f97
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

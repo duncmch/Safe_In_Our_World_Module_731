@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3cad1a2363003284f80a82ae0c61b12d
+guid: 9d5643dd4b9d8bf4190e5572ac7eb6b9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7278526558416036511
-    second: Float-2_0
+      213: 5341187902684335661
+    second: orb_green_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Float-2_0
+      name: orb_green_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 37
-        width: 66
-        height: 42
+        x: 2
+        y: 3
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16d9d5d88aa7dfa90800000000000000
-      internalID: -7278526558416036511
+      spriteID: d2e0d124916bf1a40800000000000000
+      internalID: 5341187902684335661
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Float-2_0: -7278526558416036511
+      orb_green_0: 5341187902684335661
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

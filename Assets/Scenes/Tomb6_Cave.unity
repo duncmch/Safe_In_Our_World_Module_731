@@ -6297,13 +6297,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss Handler
       objectReference: {fileID: 0}
+    - target: {fileID: 1486437223110189844, guid: 078fd5501f70757468fc0af06f2f0c54, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486437223110189844, guid: 078fd5501f70757468fc0af06f2f0c54, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.07
+      objectReference: {fileID: 0}
     - target: {fileID: 2267863741215573716, guid: 078fd5501f70757468fc0af06f2f0c54, type: 3}
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4509810865219802860, guid: 078fd5501f70757468fc0af06f2f0c54, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.5
+      value: -5.31
       objectReference: {fileID: 0}
     - target: {fileID: 4509810865219802860, guid: 078fd5501f70757468fc0af06f2f0c54, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6340,6 +6348,22 @@ PrefabInstance:
     - target: {fileID: 4509810865219802860, guid: 078fd5501f70757468fc0af06f2f0c54, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857178790374887254, guid: 078fd5501f70757468fc0af06f2f0c54, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857178790374887254, guid: 078fd5501f70757468fc0af06f2f0c54, type: 3}
+      propertyPath: damage
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857178790374887254, guid: 078fd5501f70757468fc0af06f2f0c54, type: 3}
+      propertyPath: SideAttackArea.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857178790374887254, guid: 078fd5501f70757468fc0af06f2f0c54, type: 3}
+      propertyPath: SideAttackArea.y
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
