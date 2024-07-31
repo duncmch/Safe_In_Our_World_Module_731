@@ -9,6 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: ca986af9c345e124587742c5ecf9d9eb
   - enabled: 1
+    path: Assets/Scenes/Cutscene.unity
+    guid: af38a374f17865449a8640107cba97fa
+  - enabled: 1
+    path: Assets/Scenes/Cutscene 1.unity
+    guid: 10b945ef82d136f49959f0266e454fa5
+  - enabled: 1
+    path: Assets/Scenes/Cutscene 2.unity
+    guid: cf1931c976206fe49bd38281d21d2dab
+  - enabled: 1
+    path: Assets/Scenes/Cutscene 3.unity
+    guid: 69ca75acabdedc241841aa8badf2d38d
+  - enabled: 1
+    path: Assets/Scenes/Cutscene 4.unity
+    guid: 2252a3a6621946f4cb83416da097019b
+  - enabled: 1
     path: Assets/Scenes/Tomb1_Cave.unity
     guid: 58dbfd17eb496c941bc3ada3756edbf3
   - enabled: 1

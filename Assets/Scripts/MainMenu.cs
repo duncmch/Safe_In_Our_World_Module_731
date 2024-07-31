@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void NewGame()
     {
-        SceneManager.LoadSceneAsync("Tomb1_Cave");
+        SceneManager.LoadSceneAsync("Cutscene");
     }
     public void Options()
     {
