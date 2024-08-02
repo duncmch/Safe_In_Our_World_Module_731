@@ -9,6 +9,7 @@ TagManager:
   - Wall
   - Vine
   - Potion
+  - Rock
   layers:
   - Default
   - TransparentFX

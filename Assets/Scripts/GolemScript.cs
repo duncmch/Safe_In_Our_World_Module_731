@@ -194,4 +194,17 @@ public class GolemScript : Enemy
     {
         Destroy(gameObject);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Rock")
+        {
+
+            Debug.Log("Enemy started colliding with rock");
+
+
+            this.health -= 10;
+
+        }
+    }
 }
