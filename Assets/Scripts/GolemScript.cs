@@ -95,12 +95,12 @@ public class GolemScript : Enemy
     {
         if(PlayerController.Instance.transform.position.x < transform.position.x && transform.localScale.x > 0)
         {
-            transform.eulerAngles = new Vector2(transform.eulerAngles.x, 0);
+            transform.eulerAngles = new Vector2(transform.eulerAngles.x, 180);
             facingRight = false;
         }
         else
         {
-            transform.eulerAngles = new Vector2(transform.eulerAngles.x, 180);
+            transform.eulerAngles = new Vector2(transform.eulerAngles.x, 0);
             facingRight = true;
         }
     }
