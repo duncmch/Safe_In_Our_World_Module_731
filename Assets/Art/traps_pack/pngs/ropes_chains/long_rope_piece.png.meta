@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      long_rope_piece_0: -2500802928350343066
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

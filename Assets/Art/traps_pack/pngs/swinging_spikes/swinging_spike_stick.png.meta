@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      swinging_spike_stick_0: 3576361801346870563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

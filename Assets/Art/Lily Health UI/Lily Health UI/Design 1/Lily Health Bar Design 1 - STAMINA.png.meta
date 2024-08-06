@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lily Health Bar Design 1 - STAMINA_0: 5421088163000978649
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

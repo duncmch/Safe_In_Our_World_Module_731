@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public Vector2 platformingRespawnPoint;
     public Vector2 respawnPoint;
     [SerializeField] Bench bench;
+
     public static GameManager Instance { get; private set; }
 
     [System.Obsolete]

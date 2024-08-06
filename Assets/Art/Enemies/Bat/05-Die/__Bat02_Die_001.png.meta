@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      __Bat02_Die_001_0: -7597385040851646045
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

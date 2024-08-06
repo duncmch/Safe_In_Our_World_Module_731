@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Health Bar 2 - STAMINA_0: -5738862311117092240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

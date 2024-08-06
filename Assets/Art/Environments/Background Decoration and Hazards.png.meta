@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Background Decoration and Hazards_0: 8454347797469444117
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

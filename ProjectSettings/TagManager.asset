@@ -10,6 +10,7 @@ TagManager:
   - Vine
   - Potion
   - Rock
+  - BossPlatform
   layers:
   - Default
   - TransparentFX

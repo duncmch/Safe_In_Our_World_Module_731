@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lily Health Bar Design 1 - HEALTH_0: -5612227017290557885
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

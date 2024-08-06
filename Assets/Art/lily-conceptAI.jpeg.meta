@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lily-conceptAI_0: 2484961656252255252
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

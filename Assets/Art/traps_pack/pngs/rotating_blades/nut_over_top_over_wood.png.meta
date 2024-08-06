@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      nut_over_top_over_wood_0: -4961149550244100299
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

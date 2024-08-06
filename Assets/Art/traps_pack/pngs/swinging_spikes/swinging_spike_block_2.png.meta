@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      swinging_spike_block_2_0: -1913911361130693016
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

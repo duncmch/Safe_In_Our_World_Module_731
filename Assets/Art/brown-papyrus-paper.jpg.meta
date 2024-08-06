@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      brown-papyrus-paper_0: 7938871630839939422
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

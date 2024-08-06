@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Biome2Bg4_0: 8665474627977001376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shrine-pixelicious_0: -1939178537061834814
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
