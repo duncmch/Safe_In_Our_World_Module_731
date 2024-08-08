@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GolemScript : Enemy
 {
@@ -193,6 +194,7 @@ public class GolemScript : Enemy
     public void DestroyAfterDeath()
     {
         Destroy(gameObject);
+        SceneManager.LoadScene("EndScene");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

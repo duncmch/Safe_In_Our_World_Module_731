@@ -216,7 +216,7 @@ MonoBehaviour:
   - No magic can heal or save her.
   - The only thing Lily can do is to take care of her ill grandmother and make her
     feel better.
-  textSpeed: 0.2
+  textSpeed: 0.1
   button: {fileID: 330703042}
   buttonSR: {fileID: 330703043}
   buttonText: {fileID: 397824509}

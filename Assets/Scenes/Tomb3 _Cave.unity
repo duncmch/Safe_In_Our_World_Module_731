@@ -1187,6 +1187,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 19622811}
     m_Modifications:
+    - target: {fileID: 1109325110587373468, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
+      propertyPath: initialPosition.x
+      value: 154.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109325110587373468, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
+      propertyPath: initialPosition.y
+      value: 9.399998
+      objectReference: {fileID: 0}
     - target: {fileID: 2125703656620875183, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
       propertyPath: m_Name
       value: Falling Platform (1)
@@ -2764,6 +2772,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 19622811}
     m_Modifications:
+    - target: {fileID: 1109325110587373468, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
+      propertyPath: initialPosition.x
+      value: 191.3795
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109325110587373468, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
+      propertyPath: initialPosition.y
+      value: 17.2687
+      objectReference: {fileID: 0}
     - target: {fileID: 2125703656620875183, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
       propertyPath: m_Name
       value: Falling Platform
@@ -3946,6 +3962,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 19622811}
     m_Modifications:
+    - target: {fileID: 1109325110587373468, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
+      propertyPath: initialPosition.x
+      value: 141.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109325110587373468, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
+      propertyPath: initialPosition.y
+      value: 12.9
+      objectReference: {fileID: 0}
     - target: {fileID: 2125703656620875183, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
       propertyPath: m_Name
       value: Falling Platform (2)
@@ -9033,6 +9057,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 19622811}
     m_Modifications:
+    - target: {fileID: 1109325110587373468, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
+      propertyPath: initialPosition.x
+      value: 79
+      objectReference: {fileID: 0}
     - target: {fileID: 2125703656620875183, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
       propertyPath: m_Name
       value: Falling Platform (4)
@@ -11919,6 +11947,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 19622811}
     m_Modifications:
+    - target: {fileID: 1109325110587373468, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
+      propertyPath: initialPosition.x
+      value: 110.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109325110587373468, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
+      propertyPath: initialPosition.y
+      value: 14.6
+      objectReference: {fileID: 0}
     - target: {fileID: 2125703656620875183, guid: 934d647c0b3f1b942a293860c3048b1b, type: 3}
       propertyPath: m_Name
       value: Falling Platform (3)

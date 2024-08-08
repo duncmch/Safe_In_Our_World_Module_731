@@ -11,9 +11,12 @@ public class FallingPlatform : MonoBehaviour
 
     [SerializeField] private Rigidbody2D rb;
 
+    public Vector2 initialPosition;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
+        initialPosition = transform.position;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -30,6 +33,16 @@ public class FallingPlatform : MonoBehaviour
         animator.SetTrigger("FallStart");
         yield return new WaitForSeconds(fallDelay);
         rb.bodyType = RigidbodyType2D.Dynamic;
-        Destroy(gameObject, destroyDelay);
+        rb.constraints = RigidbodyConstraints2D.None;
+        StartCoroutine(Respawn());
+    }
+
+    private IEnumerator Respawn()
+    {
+        yield return new WaitForSeconds(2f);
+        transform.position = initialPosition;
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        rb.constraints = RigidbodyConstraints2D.FreezePosition;
+        StopCoroutine(Fall());
     }
 }

@@ -214,7 +214,7 @@ MonoBehaviour:
   - "Eventually, Lily\u2019s grandmother passed away, her ashes kept in a jar and
     stored in the village mausoleum."
   - Lily, heartbroken, is now alone without anyone close to her.
-  textSpeed: 0.2
+  textSpeed: 0.1
   button: {fileID: 330703042}
   buttonSR: {fileID: 330703043}
   buttonText: {fileID: 397824509}

@@ -215,7 +215,7 @@ MonoBehaviour:
   - "Lily\u2019s parents passed away a long time ago, and she lives with her grandmother,
     who teaches her magic."
   - Lily has always enjoyed talking, playing, and learning with her grandmother.
-  textSpeed: 0.2
+  textSpeed: 0.1
   button: {fileID: 330703042}
   buttonSR: {fileID: 330703043}
   buttonText: {fileID: 397824509}
